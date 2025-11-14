@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: /home/mo/circulate
     docker:
-      - image: python:3.14.0
+      - image: python:3.9.25
         environment:
           FLASK_APP: autoapp.py
           FLASK_DEBUG: 1
